@@ -17,5 +17,11 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "plugins": [
+    {
+      "transform": "typescript-transform-paths",
+      "afterDeclarations": true
+    }
+  ]
 }
