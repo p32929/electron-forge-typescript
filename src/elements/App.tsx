@@ -16,12 +16,14 @@ const App: React.FC<Props> = (props) => {
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                 Counter: {states.counter}
             </h1>
-            <Button onClick={() => {
-                controller.increase()
-            }}>+++</Button>
+
             <Button onClick={() => {
                 controller.decrease()
             }}>---</Button>
+
+            <Button onClick={() => {
+                controller.increase()
+            }}>+++</Button>
         </div>
     )
 
