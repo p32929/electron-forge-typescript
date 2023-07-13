@@ -6,6 +6,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
+    "experimentalDecorators": true,
     "sourceMap": true,
     "baseUrl": ".",
     "outDir": "dist",

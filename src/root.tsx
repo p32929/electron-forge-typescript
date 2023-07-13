@@ -1,14 +1,16 @@
 import * as ReactDOM from 'react-dom';
-import { Button } from './components/ui/button';
+import App from './elements/App';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from './lib/StatesController';
 
 function render() {
     ReactDOM.render(
-        <div>
-            <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-                Taxing Laughter: The Joke Tax Chronicles
-            </h1>
-            <Button>Hello</Button>
-        </div>
+        <React.StrictMode>
+            <Provider store={store}>
+                <App />
+            </Provider>
+        </React.StrictMode>
         , document.body);
 }
 
