@@ -1,2 +1,8 @@
 # electron forge + react + typescript + tailwindcss + shadcn + usm
-Use the dedicated branch. Master branch is kinda empty.
+....
+
+# How to run
+* npm / yarn install
+* npm / yarn start
+
+Enjoy!
