@@ -23,6 +23,7 @@ export const rendererConfig: Configuration = {
   module: {
     rules,
   },
+  devtool: 'inline-source-map',
   plugins,
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css'],
